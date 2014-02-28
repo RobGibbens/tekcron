@@ -7,7 +7,7 @@ namespace TekCron.Service
 	{
 		public void Execute(IJobExecutionContext context)
 		{
-			Console.WriteLine("TestScriptsJob : The current time is: {0}", DateTime.Now);
+			//Console.WriteLine("TestScriptsJob : The current time is: {0}", DateTime.Now);
 		}
 	}
 }
